@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  background-color: #fff;
+  opacity: 0.9;
+}
+#nav .img {
+  opacity: 1;
+}
+#nav .nav_ul {
+  display: flex;
+  gap: 25px;
+}
+#nav .nav_ul .nav_ul_list {
+  opacity: 1;
+  list-style-type: none;
+  font-size: 18px;
+  text-decoration: none;
+  z-index: 1000;
+}
+#nav .nav_ul .nav_ul_list a {
+  text-decoration: none;
+  color: #212529;
+  transition: all 0.6s ease;
+}
+#nav .nav_ul .nav_ul_list a:hover {
+  color: #fd7e14;
+}
+
+#main .home_img {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+  background-image: url(../assets/anipat/img/banner/banner.png);
+  background-size: cover;
+  background-position: center;
+}
+#main .home_img .banner_dog {
+  margin-top: 28%;
+}
+#main .home_img .banner_text {
+  width: 100%;
+  margin-left: 15%;
+}
+#main .home_img .banner_text .text_weidht {
+  font-weight: 100;
+  color: #fff;
+  font-size: 40px;
+}
+#main .home_img .banner_text .text_large {
+  font-weight: 900;
+  color: #fff;
+  font-size: 50px;
+}
+#main .home_img .banner_text .text_p {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+#main .btn {
+  background-color: #fff;
+  color: #ff3500;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 17px 40px;
+  font-size: 17px;
+  margin-top: 20px;
+  transition: all 0.5s ease;
+}
+#main .btn:hover {
+  background-color: #ff3500;
+  color: #fff;
+}
+#main .section_two_text {
+  color: #212529;
+  margin-top: 10%;
+  text-align: center;
+}
+#main .section_two_text .section_two_text_h {
+  font-size: 50px;
+}
+#main .section_two_text .section_two_text_p {
+  margin-top: 10px;
+  color: #909092;
+  line-height: 30px;
+}/*# sourceMappingURL=style.css.map */
